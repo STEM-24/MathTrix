@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_item_calculator"
+            android:title="@string/calculator"
+            android:icon="@drawable/icons8_calculator_64"/>
+
+</menu>

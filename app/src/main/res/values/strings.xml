@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MathTrix</string>
+    <string name="search_terms_here">Search terms here...</string>
+    <string name="definitions">Definitions:</string>
+    <string name="examples">Examples:</string>
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="calculator">Calculator</string>
+    <string name="an_innovative_business_mathematics_application">An Innovative Business Mathematics Application</string>
+    <string name="mathtrix">MathTrix</string>
+    <string name="settings">Settings</string>
+    <string name="principal_amount">Principal Amount</string>
+    <string name="rate_of_interest">Rate of Interest (%)</string>
+    <string name="time_years">Time (years)</string>
+    <string name="calculate">Calculate</string>
+    <string name="simple_interest_result">Result</string>
+    <string name="search">Search</string>
+    <string name="business_calculator">Business Calculator</string>
+</resources>

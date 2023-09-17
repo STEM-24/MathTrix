@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/simpleInterestCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        tools:context=".calculator.options.SimpleInterestFragment" >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                        android:id="@+id/editTextPrincipal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/principal_amount"
+                        android:inputType="numberDecimal"
+                        android:layout_marginTop="16dp"
+                        android:importantForAutofill="no"
+                        android:minHeight="48dp"
+                        android:textColorHint="#757575"
+                        tools:ignore="VisualLintTextFieldSize" />
+
+                <EditText
+                        android:id="@+id/editTextRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/rate_of_interest"
+                        android:inputType="numberDecimal"
+                        android:layout_marginTop="8dp"
+                        android:importantForAutofill="no"
+                        android:minHeight="48dp"
+                        android:textColorHint="#757575"
+                        tools:ignore="VisualLintTextFieldSize" />
+
+                <EditText
+                        android:id="@+id/editTextTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/time_years"
+                        android:inputType="numberDecimal"
+                        android:layout_marginTop="8dp"
+                        android:importantForAutofill="no"
+                        android:minHeight="48dp"
+                        tools:ignore="VisualLintTextFieldSize" />
+
+                <TextView android:id="@+id/textViewResult"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:layout_marginTop="16dp" />
+
+                <Button android:id="@+id/buttonCalculate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calculate"
+                        android:layout_marginTop="16dp"
+                        tools:ignore="VisualLintButtonSize" />
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

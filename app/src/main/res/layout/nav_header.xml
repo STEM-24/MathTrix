@@ -1,0 +1,50 @@
+<!-- nav_header.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/bg">
+
+    <ImageView
+            android:id="@+id/iconMode"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_dark_mode_24"
+            android:layout_gravity="end"
+            />
+
+    <!-- Profile Picture -->
+    <ImageView
+            android:id="@+id/nav_profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:contentDescription="@string/app_name"
+            tools:ignore="ImageContrastCheck" />
+
+    <!-- User Name -->
+    <TextView
+            android:id="@+id/nav_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mathtrix"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginTop="8dp" />
+
+    <!-- User Email or Additional Info -->
+    <TextView android:id="@+id/nav_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/an_innovative_business_mathematics_application"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_gravity="start"
+            android:layout_marginTop="4dp" />
+
+</LinearLayout>
